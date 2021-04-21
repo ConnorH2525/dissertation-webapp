@@ -49,6 +49,15 @@ const Viewer = () => {
 
     return (
             <div style={{height: "100%", position: "relative", backgroundColor: "black"}}>
+                {!childFiles[i] && (
+                    <div>
+                        <div style={{backgroundColor: "white"}}>
+                        <CenteredContainer>
+                            <h1>There is no media uploaded to this frame yet! :)</h1>
+                        </CenteredContainer>
+                        </div>
+                    </div>
+                )}
                 {childFiles[i] && (
                     <div>
                         {!childFiles[i].isText && 
