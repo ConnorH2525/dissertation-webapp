@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dissertation-webapp/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/dissertation-webapp/static/js/main.51751638.chunk.js",
+    "main.js.map": "/dissertation-webapp/static/js/main.51751638.chunk.js.map",
+    "runtime-main.js": "/dissertation-webapp/static/js/runtime-main.9bf6924b.js",
+    "runtime-main.js.map": "/dissertation-webapp/static/js/runtime-main.9bf6924b.js.map",
+    "static/js/2.dcfb748e.chunk.js": "/dissertation-webapp/static/js/2.dcfb748e.chunk.js",
+    "static/js/2.dcfb748e.chunk.js.map": "/dissertation-webapp/static/js/2.dcfb748e.chunk.js.map",
+    "static/js/3.062e130f.chunk.js": "/dissertation-webapp/static/js/3.062e130f.chunk.js",
+    "static/js/3.062e130f.chunk.js.map": "/dissertation-webapp/static/js/3.062e130f.chunk.js.map",
+    "index.html": "/dissertation-webapp/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/dissertation-webapp/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.dcfb748e.chunk.js.LICENSE.txt": "/dissertation-webapp/static/js/2.dcfb748e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/dissertation-webapp/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bf6924b.js",
+    "static/js/2.dcfb748e.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.51751638.chunk.js"
+  ]
+}
