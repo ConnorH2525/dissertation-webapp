@@ -61,7 +61,7 @@ const Viewer = () => {
                 {childFiles[i] && (
                     <div>
                         {!childFiles[i].isText && 
-                            <div style={{transform: "translate(0, 50%)", backgroundColor: "black"}}>
+                            <div style={{ backgroundColor: "black"}}>
                                 <img
                                 src={childFiles[i].url}
                                 alt="example"
