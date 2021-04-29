@@ -21,7 +21,7 @@ const AddMediaButton = ({ currentGroup }) => {
         .then(doc => {
             setName(database.formatDoc(doc))
         })
-    }, [])
+    }, [currentUser.uid])
 
     function handleUpload(e) {
         const file = e.target.files[0]

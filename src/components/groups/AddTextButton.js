@@ -19,7 +19,7 @@ const AddTextButton = ({ currentGroup }) => {
         .then(doc => {
             setName(database.formatDoc(doc))
         })
-    }, [])
+    }, [currentUser.uid])
 
     function openModal() {
         setOpen(true)

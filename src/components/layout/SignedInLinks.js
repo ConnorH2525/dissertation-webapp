@@ -17,7 +17,7 @@ const SignedInLinks = () => {
         .then(doc => {
             setName(database.formatDoc(doc))
         })
-    }, [])
+    }, [currentUser.uid])
 
     return (
         <Nav className="ml-auto">

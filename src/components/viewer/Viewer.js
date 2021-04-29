@@ -60,11 +60,25 @@ const Viewer = () => {
                 )}
                 {childFiles[i] && (
                     <div>
+                        {!childFiles[i].isText &&
+                            childFiles[i].name.includes("mp4") &&
+                                <div style={{ backgroundColor: "black"}}>
+                                    <video
+                                    width="100%"
+                                    height="1000vh"
+                                    autoPlay
+                                    muted
+                                    src={childFiles[i].url}
+                                    type="video/mp4">
+                                        Browser doesn't support videos
+                                    </video>
+                                </div>
+                        }
                         {!childFiles[i].isText && 
                             <div style={{ backgroundColor: "black"}}>
                                 <img
                                 src={childFiles[i].url}
-                                alt="example"
+                                alt="Error getting media"
                                 width="100%"/>
                             </div>
                         }

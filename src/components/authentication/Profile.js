@@ -55,7 +55,7 @@ const [username,setName] = useState("")
         .then(doc => {
             setName(database.formatDoc(doc))
         })
-    }, [])
+    }, [currentUser.uid])
     
     async function handleLogout() {
         setError("")
